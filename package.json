@@ -1,0 +1,26 @@
+{
+  "name": "customer-journey",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "formula-pmt": "^1.0.1",
+    "fs": "0.0.1-security",
+    "geopoint": "^1.0.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "js-sha512": "^0.8.0",
+    "md5": "^2.3.0",
+    "moment": "^2.24.0",
+    "mongo-client": "^0.2.1",
+    "mongodb": "^3.5.2",
+    "morgan": "~1.9.1",
+    "mysql": "2.17.1",
+    "lodash": "^4.17.15"
+  }
+}
