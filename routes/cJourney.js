@@ -746,9 +746,9 @@ function getCRIFData(filterType = null){
                         resDPDList:"$resDPDList",
                         indvDPDList:"$indvDPDList",
                         grpDPDList:"$grpDPDList",
-                        resCurrentBal:"$resCurrentBal", // new Change
-                        indvCurrentBal:"$indvCurrentBal",// New Change
-                        grpCurrentBal:"$grpCurrentBal" // new Change
+                        resCurrentBal:"$resCurrentBal",
+                        indvCurrentBal:"$indvCurrentBal",
+                        grpCurrentBal:"$grpCurrentBal"
                     }
                 },
                 {
@@ -823,9 +823,9 @@ function getCRIFData(filterType = null){
                         resDPDList:"$resDPDList",
                         indvDPDList:"$indvDPDList",
                         grpDPDList:"$grpDPDList",
-                        resCurrentBal:"$resCurrentBal", // new Change
-                        indvCurrentBal:"$indvCurrentBal",// New Change
-                        grpCurrentBal:"$grpCurrentBal" // new Change
+                        resCurrentBal:"$resCurrentBal",
+                        indvCurrentBal:"$indvCurrentBal",
+                        grpCurrentBal:"$grpCurrentBal"
                     }
                 }
             ]);
@@ -969,27 +969,22 @@ try {
 
             let crifObjArr = [];
             if(crifObj !== undefined){
-                //new Change
                 crifObj["typeOfObj"] = "b_";
                 crifObj["grpInstalment"] = crif2Obj["grpInstalment"];
                 crifObj["grpFreq"] = crif["grpFreq"];
                 crifObj["indvInstalment"] = crif2Obj["indvInstalment"];
                 crifObj["indvFreq"] = crif2Obj["indvFreq"];
                 crifObj["resInstalment"] = crif2Obj["resInstalment"];
-                //new Change
-
                 crifObjArr.push(crifObj);
             }
 
             if(s_crifObj !== undefined){
-                //new Change
                 s_crifObj["typeOfObj"] = "s_";
                 crifObj["s_grpInstalment"] = crif2Obj["s_grpInstalment"];
                 crifObj["s_grpFreq"] = crif2Obj["s_grpFreq"];
                 crifObj["s_indvInstalment"] = crif2Obj["s_indvInstalment"];
                 crifObj["s_indvFreq"] = crif2Obj["s_indvFreq"];
                 crifObj["s_resInstalment"] = crif2Obj["s_resInstalment"];
-                //new Change
                 crifObjArr.push(s_crifObj);
             }
             crifObjArr.forEach(function (crif){
@@ -1042,10 +1037,9 @@ try {
                     let dPDMonthlyArr = {};
                     let monthlyActiveLoan = {};
                     item.forEach(function(entry){
-                        let l = 0;//New Change
+                        let l = 0;
                         if(crif[pre+entry+"CombinedPaymentHistory"] !== undefined ) {
                             for(let i = 0; i < crif[pre+entry+"CombinedPaymentHistory"].length ; i++){
-                                //New Change
                                 let loanAmount = crif[pre+entry+"LoanAmt"][i];
                                 let acctType = crif[pre+entry+"AcctType"][i].replace( /\s\s+/g, ' ' );
                                 let instalmentList = crif[pre+entry + "Instalment"]
@@ -1069,10 +1063,8 @@ try {
                                     let tenure = emiEstimationConst.variable[acctType]["Tenure"];
                                     emi = pmt(interestRate / 1200, tenure, -loanAmount );
                                 }
-                                //New Change
-                                let combinedPaymentHistoryStr = crif[pre+entry+"CombinedPaymentHistory"][i]//New Change
+                                let combinedPaymentHistoryStr = crif[pre+entry+"CombinedPaymentHistory"][i]
                                 let combinedPaymentHistory = crif[pre+entry+"CombinedPaymentHistory"][i].split("|");
-                                //New Change
                                 for(let j = 0;j<combinedPaymentHistory.length;j++){
                                     let emiMonth = combinedPaymentHistory[j].split(",")[0];
                                     if(emiPaidMonthly[emiMonth] !== undefined && emiPaidMonthly[emiMonth] !== null && emiPaidMonthly[emiMonth] !== ""){
@@ -1096,7 +1088,7 @@ try {
                                         }
                                     }
                                 }
-                                if (combinedPaymentHistoryStr !== "") l += 1 // New Change
+                                if (combinedPaymentHistoryStr !== "") l += 1
                             }
                         }
                         delete crif[pre+entry+"CombinedPaymentHistory"];
@@ -1221,7 +1213,7 @@ try {
             delete prospectsObj["identifierNumber"];
 
 
-            console.log(JSON.stringify(Object.assign({},prospectsObj,creditObj,loanObj,crifObj,s_crifObj))) // New Change
+            console.log(JSON.stringify(Object.assign({},prospectsObj,creditObj,loanObj,crifObj,s_crifObj)))
             //let xyz = JSON.stringify(Object.assign({},prospectsObj,creditObj,loanObj,crifObj,crif2Obj,s_crifObj,s_crif2Obj));
             /*if (loanObj && loanObj["FinanceId"] && loanObj["FinanceId"] !== "undefined" && Date.parse(loanObj["disbursementDate"]) > 1546300800000 && Date.parse(loanObj["disbursementDate"]) < 1606780800000  ) {
                 console.log(loanObj["FinanceId"]+","+crifObj["CreditScore"]);
