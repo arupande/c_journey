@@ -87,7 +87,7 @@ function getCreditReport(){
             // perform actions on the collection object
 
             let cursor = collection.aggregate([
-                {"$match":{ $and: [{"prospectId":"5e412caa57e8407f59c757a9"},
+                {"$match":{ $and: [{"prospectId":"5e2e674e57e84032714f42ed"},
                             /*{"prospectId":{$in:["60486bd0cf6b757a09266777","60477897cf6b7517192e9bf1","60476c67cf6b7517192d5ee6","6046e922cf6b751719220537","6042278bcf6b754e2d659e72","604207fecf6b754e2d6413d6","604078e5cf6b754e2d55e027","60408dcccf6b754e2d5798f5","60406be2cf6b754e2d54c223","604037edcf6b754e2d531d20","60018a81cf6b757c6ba502a3","603f64bbcf6b754e2d4f4110","603f5792cf6b754e2d4e0f41","603f425fcf6b754e2d4cb612","603de4e7cf6b753d51d39306","603df420cf6b753d51d518c9","603e3818cf6b753d51dae591","603e3424cf6b753d51dac688","603db3afcf6b753d51d02747","603b9bfacf6b7510c97f297b","60372177cf6b7522de8f36fb","603ca73ecf6b753d51c9bea3","603c9adecf6b753d51c89b9e","603b0be6cf6b7510c97d9e79","6031f05bcf6b755cd32b2adc","6039d39acf6b7510c97a2fe0","6039b60ecf6b7510c9791737","60386fc0cf6b7510c96bd986","60387ad3cf6b7510c96cd67f","60387575cf6b7510c96c8063","6038721fcf6b7510c96bf368","60379fc8cf6b7522de979cab","60378fb8cf6b7522de9702c2","60378b44cf6b7522de968b78","602c92edcf6b7508a2815d70","60377070cf6b7522de949853","60373100cf6b7522de90227c","60261b88cf6b75138c213843","603748a6cf6b7522de91f17d","60362fdccf6b7522de89e68f","60372086cf6b7522de8f2ede","60365098cf6b7522de8bbaf1","60363cfacf6b7522de8aa57b","6035efe2cf6b7522de828b27","6035f347cf6b7522de82ed7c","6035de2ecf6b7522de811abd","60352341cf6b7522de7d538e","60337c74cf6b755cd334839c","6035bfcfcf6b7522de7f0892","6035c1c6cf6b7522de7f2533","6035040bcf6b7522de7bb05f","6034fe65cf6b7522de7b5bd3","6034ef2ccf6b7522de79e148","6034d932cf6b7522de77dcce","6034df33cf6b7522de785268","6034df86cf6b7522de786862","60311869cf6b755cd3296901","6034aac0cf6b7522de73a114","60347b3fcf6b7522de6e0912","6034961fcf6b7522de71292a","602f95ffcf6b7508a2abb189","60347a59cf6b7522de6e007a","603472ffcf6b7522de6d7b31","6033c035cf6b755cd33a795e","6033b232cf6b755cd339cead","602b813acf6b7508a2753e36","6033aac6cf6b755cd339619c","60339912cf6b755cd337b897","60309059cf6b755cd32083ef","603388d7cf6b755cd335c0da","60338a5ccf6b755cd335d09b","602e425fcf6b7508a29ac580","6033534ecf6b755cd330beda","60332e80cf6b755cd32e82b8","602f7b7fcf6b7508a2a92069","602f5eb3cf6b7508a2a7298c","602b7af8cf6b7508a27468a9","602d0c14cf6b7508a28b80ea","602d0c60cf6b7508a28b85ef","6030e43ccf6b755cd326a9f8","6030872dcf6b755cd31fe1a2","60309979cf6b755cd3211f0f","60309474cf6b755cd320ced3","602d00e8cf6b7508a28a7bdc","6030a717cf6b755cd3220b46","6030ad98cf6b755cd3228d3b","60307f82cf6b755cd31f382b","6030816ecf6b755cd31f6cf6","602fc9f8cf6b7508a2ae0b9d","602faf1ccf6b7508a2acd3b0","602fad16cf6b7508a2acb9e8","602fb3dacf6b7508a2ad0049","602f5d7ccf6b7508a2a70cb8","602f867dcf6b7508a2a9c88c","602b7f94cf6b7508a274f5cf","6023d87fcf6b756955bb534c","602e1479cf6b7508a297a1ab","602f6673cf6b7508a2a7f959","602f2b56cf6b7508a2a2f3f0","602de495cf6b7508a2918a4f"]}},*/
                             {"state":901}]
                     }
@@ -132,7 +132,7 @@ function getCustLoan(){
             // perform actions on the collection object
 
             let cursor = collection.aggregate([
-                {"$match":{ $and: [{"customerId":"5e412caa57e8407f59c757a9"},
+                {"$match":{ $and: [{"customerId":"5e2e674e57e84032714f42ed"},
                             /*{"customerId":{$in:["60486bd0cf6b757a09266777","60477897cf6b7517192e9bf1","60476c67cf6b7517192d5ee6","6046e922cf6b751719220537","6042278bcf6b754e2d659e72","604207fecf6b754e2d6413d6","604078e5cf6b754e2d55e027","60408dcccf6b754e2d5798f5","60406be2cf6b754e2d54c223","604037edcf6b754e2d531d20","60018a81cf6b757c6ba502a3","603f64bbcf6b754e2d4f4110","603f5792cf6b754e2d4e0f41","603f425fcf6b754e2d4cb612","603de4e7cf6b753d51d39306","603df420cf6b753d51d518c9","603e3818cf6b753d51dae591","603e3424cf6b753d51dac688","603db3afcf6b753d51d02747","603b9bfacf6b7510c97f297b","60372177cf6b7522de8f36fb","603ca73ecf6b753d51c9bea3","603c9adecf6b753d51c89b9e","603b0be6cf6b7510c97d9e79","6031f05bcf6b755cd32b2adc","6039d39acf6b7510c97a2fe0","6039b60ecf6b7510c9791737","60386fc0cf6b7510c96bd986","60387ad3cf6b7510c96cd67f","60387575cf6b7510c96c8063","6038721fcf6b7510c96bf368","60379fc8cf6b7522de979cab","60378fb8cf6b7522de9702c2","60378b44cf6b7522de968b78","602c92edcf6b7508a2815d70","60377070cf6b7522de949853","60373100cf6b7522de90227c","60261b88cf6b75138c213843","603748a6cf6b7522de91f17d","60362fdccf6b7522de89e68f","60372086cf6b7522de8f2ede","60365098cf6b7522de8bbaf1","60363cfacf6b7522de8aa57b","6035efe2cf6b7522de828b27","6035f347cf6b7522de82ed7c","6035de2ecf6b7522de811abd","60352341cf6b7522de7d538e","60337c74cf6b755cd334839c","6035bfcfcf6b7522de7f0892","6035c1c6cf6b7522de7f2533","6035040bcf6b7522de7bb05f","6034fe65cf6b7522de7b5bd3","6034ef2ccf6b7522de79e148","6034d932cf6b7522de77dcce","6034df33cf6b7522de785268","6034df86cf6b7522de786862","60311869cf6b755cd3296901","6034aac0cf6b7522de73a114","60347b3fcf6b7522de6e0912","6034961fcf6b7522de71292a","602f95ffcf6b7508a2abb189","60347a59cf6b7522de6e007a","603472ffcf6b7522de6d7b31","6033c035cf6b755cd33a795e","6033b232cf6b755cd339cead","602b813acf6b7508a2753e36","6033aac6cf6b755cd339619c","60339912cf6b755cd337b897","60309059cf6b755cd32083ef","603388d7cf6b755cd335c0da","60338a5ccf6b755cd335d09b","602e425fcf6b7508a29ac580","6033534ecf6b755cd330beda","60332e80cf6b755cd32e82b8","602f7b7fcf6b7508a2a92069","602f5eb3cf6b7508a2a7298c","602b7af8cf6b7508a27468a9","602d0c14cf6b7508a28b80ea","602d0c60cf6b7508a28b85ef","6030e43ccf6b755cd326a9f8","6030872dcf6b755cd31fe1a2","60309979cf6b755cd3211f0f","60309474cf6b755cd320ced3","602d00e8cf6b7508a28a7bdc","6030a717cf6b755cd3220b46","6030ad98cf6b755cd3228d3b","60307f82cf6b755cd31f382b","6030816ecf6b755cd31f6cf6","602fc9f8cf6b7508a2ae0b9d","602faf1ccf6b7508a2acd3b0","602fad16cf6b7508a2acb9e8","602fb3dacf6b7508a2ad0049","602f5d7ccf6b7508a2a70cb8","602f867dcf6b7508a2a9c88c","602b7f94cf6b7508a274f5cf","6023d87fcf6b756955bb534c","602e1479cf6b7508a297a1ab","602f6673cf6b7508a2a7f959","602f2b56cf6b7508a2a2f3f0","602de495cf6b7508a2918a4f"]}},*/
                             {"state":901}]}
                 },
@@ -215,13 +215,16 @@ function getProspects(){
             // perform actions on the collection object
 
             let cursor = collection.aggregate([
-                {"$match":{ $and: [{"_id": new ObjectID("5e412caa57e8407f59c757a9")},
+                {"$match":{ $and: [{"_id": new ObjectID("5e2e674e57e84032714f42ed")},
                             /*{"_id": {$in:[new ObjectID("60486bd0cf6b757a09266777"),new ObjectID("60477897cf6b7517192e9bf1"),new ObjectID("60476c67cf6b7517192d5ee6"),new ObjectID("6046e922cf6b751719220537"),new ObjectID("6042278bcf6b754e2d659e72"),new ObjectID("604207fecf6b754e2d6413d6"),new ObjectID("604078e5cf6b754e2d55e027"),new ObjectID("60408dcccf6b754e2d5798f5"),new ObjectID("60406be2cf6b754e2d54c223"),new ObjectID("604037edcf6b754e2d531d20"),new ObjectID("60018a81cf6b757c6ba502a3"),new ObjectID("603f64bbcf6b754e2d4f4110"),new ObjectID("603f5792cf6b754e2d4e0f41"),new ObjectID("603f425fcf6b754e2d4cb612"),new ObjectID("603de4e7cf6b753d51d39306"),new ObjectID("603df420cf6b753d51d518c9"),new ObjectID("603e3818cf6b753d51dae591"),new ObjectID("603e3424cf6b753d51dac688"),new ObjectID("603db3afcf6b753d51d02747"),new ObjectID("603b9bfacf6b7510c97f297b"),new ObjectID("60372177cf6b7522de8f36fb"),new ObjectID("603ca73ecf6b753d51c9bea3"),new ObjectID("603c9adecf6b753d51c89b9e"),new ObjectID("603b0be6cf6b7510c97d9e79"),new ObjectID("6031f05bcf6b755cd32b2adc"),new ObjectID("6039d39acf6b7510c97a2fe0"),new ObjectID("6039b60ecf6b7510c9791737"),new ObjectID("60386fc0cf6b7510c96bd986"),new ObjectID("60387ad3cf6b7510c96cd67f"),new ObjectID("60387575cf6b7510c96c8063"),new ObjectID("6038721fcf6b7510c96bf368"),new ObjectID("60379fc8cf6b7522de979cab"),new ObjectID("60378fb8cf6b7522de9702c2"),new ObjectID("60378b44cf6b7522de968b78"),new ObjectID("602c92edcf6b7508a2815d70"),new ObjectID("60377070cf6b7522de949853"),new ObjectID("60373100cf6b7522de90227c"),new ObjectID("60261b88cf6b75138c213843"),new ObjectID("603748a6cf6b7522de91f17d"),new ObjectID("60362fdccf6b7522de89e68f"),new ObjectID("60372086cf6b7522de8f2ede"),new ObjectID("60365098cf6b7522de8bbaf1"),new ObjectID("60363cfacf6b7522de8aa57b"),new ObjectID("6035efe2cf6b7522de828b27"),new ObjectID("6035f347cf6b7522de82ed7c"),new ObjectID("6035de2ecf6b7522de811abd"),new ObjectID("60352341cf6b7522de7d538e"),new ObjectID("60337c74cf6b755cd334839c"),new ObjectID("6035bfcfcf6b7522de7f0892"),new ObjectID("6035c1c6cf6b7522de7f2533"),new ObjectID("6035040bcf6b7522de7bb05f"),new ObjectID("6034fe65cf6b7522de7b5bd3"),new ObjectID("6034ef2ccf6b7522de79e148"),new ObjectID("6034d932cf6b7522de77dcce"),new ObjectID("6034df33cf6b7522de785268"),new ObjectID("6034df86cf6b7522de786862"),new ObjectID("60311869cf6b755cd3296901"),new ObjectID("6034aac0cf6b7522de73a114"),new ObjectID("60347b3fcf6b7522de6e0912"),new ObjectID("6034961fcf6b7522de71292a"),new ObjectID("602f95ffcf6b7508a2abb189"),new ObjectID("60347a59cf6b7522de6e007a"),new ObjectID("603472ffcf6b7522de6d7b31"),new ObjectID("6033c035cf6b755cd33a795e"),new ObjectID("6033b232cf6b755cd339cead"),new ObjectID("602b813acf6b7508a2753e36"),new ObjectID("6033aac6cf6b755cd339619c"),new ObjectID("60339912cf6b755cd337b897"),new ObjectID("60309059cf6b755cd32083ef"),new ObjectID("603388d7cf6b755cd335c0da"),new ObjectID("60338a5ccf6b755cd335d09b"),new ObjectID("602e425fcf6b7508a29ac580"),new ObjectID("6033534ecf6b755cd330beda"),new ObjectID("60332e80cf6b755cd32e82b8"),new ObjectID("602f7b7fcf6b7508a2a92069"),new ObjectID("602f5eb3cf6b7508a2a7298c"),new ObjectID("602b7af8cf6b7508a27468a9"),new ObjectID("602d0c14cf6b7508a28b80ea"),new ObjectID("602d0c60cf6b7508a28b85ef"),new ObjectID("6030e43ccf6b755cd326a9f8"),new ObjectID("6030872dcf6b755cd31fe1a2"),new ObjectID("60309979cf6b755cd3211f0f"),new ObjectID("60309474cf6b755cd320ced3"),new ObjectID("602d00e8cf6b7508a28a7bdc"),new ObjectID("6030a717cf6b755cd3220b46"),new ObjectID("6030ad98cf6b755cd3228d3b"),new ObjectID("60307f82cf6b755cd31f382b"),new ObjectID("6030816ecf6b755cd31f6cf6"),new ObjectID("602fc9f8cf6b7508a2ae0b9d"),new ObjectID("602faf1ccf6b7508a2acd3b0"),new ObjectID("602fad16cf6b7508a2acb9e8"),new ObjectID("602fb3dacf6b7508a2ad0049"),new ObjectID("602f5d7ccf6b7508a2a70cb8"),new ObjectID("602f867dcf6b7508a2a9c88c"),new ObjectID("602b7f94cf6b7508a274f5cf"),new ObjectID("6023d87fcf6b756955bb534c"),new ObjectID("602e1479cf6b7508a297a1ab"),new ObjectID("602f6673cf6b7508a2a7f959"),new ObjectID("602f2b56cf6b7508a2a2f3f0"),new ObjectID("602de495cf6b7508a2918a4f")]}},*/
-                            {"state":901},
+                              {"state":901},
                             {"$or":[{ legalForm: {$exists: true, $eq: ("LEGAL_FORM_INDIVIDUAL")}},
                                     { legalForm: {$exists: false}}
                                 ]
-                            }
+                            }/*,
+                            {$and:[{ legalForm: {$exists: true, $eq: ("LEGAL_FORM_ENTITY")}}
+                                ]
+                            }*/
                         ]}
                 },
 
@@ -343,7 +346,7 @@ function getCRIF2(filterType=null){
             // perform actions on the collection object
 
             let cursor = collection.aggregate([
-                    {"$match":{"_id": new ObjectID("5e412caa57e8407f59c757a9")}
+                    {"$match":{"_id": new ObjectID("5e2e674e57e84032714f42ed")}
                     },
                     /*{"$match":{"_id": {$in:[new ObjectID("60486bd0cf6b757a09266777"),new ObjectID("60477897cf6b7517192e9bf1"),new ObjectID("60476c67cf6b7517192d5ee6"),new ObjectID("6046e922cf6b751719220537"),new ObjectID("6042278bcf6b754e2d659e72"),new ObjectID("604207fecf6b754e2d6413d6"),new ObjectID("604078e5cf6b754e2d55e027"),new ObjectID("60408dcccf6b754e2d5798f5"),new ObjectID("60406be2cf6b754e2d54c223"),new ObjectID("604037edcf6b754e2d531d20"),new ObjectID("60018a81cf6b757c6ba502a3"),new ObjectID("603f64bbcf6b754e2d4f4110"),new ObjectID("603f5792cf6b754e2d4e0f41"),new ObjectID("603f425fcf6b754e2d4cb612"),new ObjectID("603de4e7cf6b753d51d39306"),new ObjectID("603df420cf6b753d51d518c9"),new ObjectID("603e3818cf6b753d51dae591"),new ObjectID("603e3424cf6b753d51dac688"),new ObjectID("603db3afcf6b753d51d02747"),new ObjectID("603b9bfacf6b7510c97f297b"),new ObjectID("60372177cf6b7522de8f36fb"),new ObjectID("603ca73ecf6b753d51c9bea3"),new ObjectID("603c9adecf6b753d51c89b9e"),new ObjectID("603b0be6cf6b7510c97d9e79"),new ObjectID("6031f05bcf6b755cd32b2adc"),new ObjectID("6039d39acf6b7510c97a2fe0"),new ObjectID("6039b60ecf6b7510c9791737"),new ObjectID("60386fc0cf6b7510c96bd986"),new ObjectID("60387ad3cf6b7510c96cd67f"),new ObjectID("60387575cf6b7510c96c8063"),new ObjectID("6038721fcf6b7510c96bf368"),new ObjectID("60379fc8cf6b7522de979cab"),new ObjectID("60378fb8cf6b7522de9702c2"),new ObjectID("60378b44cf6b7522de968b78"),new ObjectID("602c92edcf6b7508a2815d70"),new ObjectID("60377070cf6b7522de949853"),new ObjectID("60373100cf6b7522de90227c"),new ObjectID("60261b88cf6b75138c213843"),new ObjectID("603748a6cf6b7522de91f17d"),new ObjectID("60362fdccf6b7522de89e68f"),new ObjectID("60372086cf6b7522de8f2ede"),new ObjectID("60365098cf6b7522de8bbaf1"),new ObjectID("60363cfacf6b7522de8aa57b"),new ObjectID("6035efe2cf6b7522de828b27"),new ObjectID("6035f347cf6b7522de82ed7c"),new ObjectID("6035de2ecf6b7522de811abd"),new ObjectID("60352341cf6b7522de7d538e"),new ObjectID("60337c74cf6b755cd334839c"),new ObjectID("6035bfcfcf6b7522de7f0892"),new ObjectID("6035c1c6cf6b7522de7f2533"),new ObjectID("6035040bcf6b7522de7bb05f"),new ObjectID("6034fe65cf6b7522de7b5bd3"),new ObjectID("6034ef2ccf6b7522de79e148"),new ObjectID("6034d932cf6b7522de77dcce"),new ObjectID("6034df33cf6b7522de785268"),new ObjectID("6034df86cf6b7522de786862"),new ObjectID("60311869cf6b755cd3296901"),new ObjectID("6034aac0cf6b7522de73a114"),new ObjectID("60347b3fcf6b7522de6e0912"),new ObjectID("6034961fcf6b7522de71292a"),new ObjectID("602f95ffcf6b7508a2abb189"),new ObjectID("60347a59cf6b7522de6e007a"),new ObjectID("603472ffcf6b7522de6d7b31"),new ObjectID("6033c035cf6b755cd33a795e"),new ObjectID("6033b232cf6b755cd339cead"),new ObjectID("602b813acf6b7508a2753e36"),new ObjectID("6033aac6cf6b755cd339619c"),new ObjectID("60339912cf6b755cd337b897"),new ObjectID("60309059cf6b755cd32083ef"),new ObjectID("603388d7cf6b755cd335c0da"),new ObjectID("60338a5ccf6b755cd335d09b"),new ObjectID("602e425fcf6b7508a29ac580"),new ObjectID("6033534ecf6b755cd330beda"),new ObjectID("60332e80cf6b755cd32e82b8"),new ObjectID("602f7b7fcf6b7508a2a92069"),new ObjectID("602f5eb3cf6b7508a2a7298c"),new ObjectID("602b7af8cf6b7508a27468a9"),new ObjectID("602d0c14cf6b7508a28b80ea"),new ObjectID("602d0c60cf6b7508a28b85ef"),new ObjectID("6030e43ccf6b755cd326a9f8"),new ObjectID("6030872dcf6b755cd31fe1a2"),new ObjectID("60309979cf6b755cd3211f0f"),new ObjectID("60309474cf6b755cd320ced3"),new ObjectID("602d00e8cf6b7508a28a7bdc"),new ObjectID("6030a717cf6b755cd3220b46"),new ObjectID("6030ad98cf6b755cd3228d3b"),new ObjectID("60307f82cf6b755cd31f382b"),new ObjectID("6030816ecf6b755cd31f6cf6"),new ObjectID("602fc9f8cf6b7508a2ae0b9d"),new ObjectID("602faf1ccf6b7508a2acd3b0"),new ObjectID("602fad16cf6b7508a2acb9e8"),new ObjectID("602fb3dacf6b7508a2ad0049"),new ObjectID("602f5d7ccf6b7508a2a70cb8"),new ObjectID("602f867dcf6b7508a2a9c88c"),new ObjectID("602b7f94cf6b7508a274f5cf"),new ObjectID("6023d87fcf6b756955bb534c"),new ObjectID("602e1479cf6b7508a297a1ab"),new ObjectID("602f6673cf6b7508a2a7f959"),new ObjectID("602f2b56cf6b7508a2a2f3f0"),new ObjectID("602de495cf6b7508a2918a4f")]}}},*/
                     {
@@ -489,7 +492,7 @@ function getCRIFData(filterType = null){
             const collection = client.db("kyros_origination").collection("crif_credit_reports");
             // perform actions on the collection object
             let cursor = collection.aggregate([
-                {"$match":{"_id": new ObjectID("5e412caa57e8407f59c757a9")}},
+                {"$match":{"_id": new ObjectID("5e2e674e57e84032714f42ed")}},
                 /*{"$match":{"_id": {$in:[new ObjectID("60486bd0cf6b757a09266777"),new ObjectID("60477897cf6b7517192e9bf1"),new ObjectID("60476c67cf6b7517192d5ee6"),new ObjectID("6046e922cf6b751719220537"),new ObjectID("6042278bcf6b754e2d659e72"),new ObjectID("604207fecf6b754e2d6413d6"),new ObjectID("604078e5cf6b754e2d55e027"),new ObjectID("60408dcccf6b754e2d5798f5"),new ObjectID("60406be2cf6b754e2d54c223"),new ObjectID("604037edcf6b754e2d531d20"),new ObjectID("60018a81cf6b757c6ba502a3"),new ObjectID("603f64bbcf6b754e2d4f4110"),new ObjectID("603f5792cf6b754e2d4e0f41"),new ObjectID("603f425fcf6b754e2d4cb612"),new ObjectID("603de4e7cf6b753d51d39306"),new ObjectID("603df420cf6b753d51d518c9"),new ObjectID("603e3818cf6b753d51dae591"),new ObjectID("603e3424cf6b753d51dac688"),new ObjectID("603db3afcf6b753d51d02747"),new ObjectID("603b9bfacf6b7510c97f297b"),new ObjectID("60372177cf6b7522de8f36fb"),new ObjectID("603ca73ecf6b753d51c9bea3"),new ObjectID("603c9adecf6b753d51c89b9e"),new ObjectID("603b0be6cf6b7510c97d9e79"),new ObjectID("6031f05bcf6b755cd32b2adc"),new ObjectID("6039d39acf6b7510c97a2fe0"),new ObjectID("6039b60ecf6b7510c9791737"),new ObjectID("60386fc0cf6b7510c96bd986"),new ObjectID("60387ad3cf6b7510c96cd67f"),new ObjectID("60387575cf6b7510c96c8063"),new ObjectID("6038721fcf6b7510c96bf368"),new ObjectID("60379fc8cf6b7522de979cab"),new ObjectID("60378fb8cf6b7522de9702c2"),new ObjectID("60378b44cf6b7522de968b78"),new ObjectID("602c92edcf6b7508a2815d70"),new ObjectID("60377070cf6b7522de949853"),new ObjectID("60373100cf6b7522de90227c"),new ObjectID("60261b88cf6b75138c213843"),new ObjectID("603748a6cf6b7522de91f17d"),new ObjectID("60362fdccf6b7522de89e68f"),new ObjectID("60372086cf6b7522de8f2ede"),new ObjectID("60365098cf6b7522de8bbaf1"),new ObjectID("60363cfacf6b7522de8aa57b"),new ObjectID("6035efe2cf6b7522de828b27"),new ObjectID("6035f347cf6b7522de82ed7c"),new ObjectID("6035de2ecf6b7522de811abd"),new ObjectID("60352341cf6b7522de7d538e"),new ObjectID("60337c74cf6b755cd334839c"),new ObjectID("6035bfcfcf6b7522de7f0892"),new ObjectID("6035c1c6cf6b7522de7f2533"),new ObjectID("6035040bcf6b7522de7bb05f"),new ObjectID("6034fe65cf6b7522de7b5bd3"),new ObjectID("6034ef2ccf6b7522de79e148"),new ObjectID("6034d932cf6b7522de77dcce"),new ObjectID("6034df33cf6b7522de785268"),new ObjectID("6034df86cf6b7522de786862"),new ObjectID("60311869cf6b755cd3296901"),new ObjectID("6034aac0cf6b7522de73a114"),new ObjectID("60347b3fcf6b7522de6e0912"),new ObjectID("6034961fcf6b7522de71292a"),new ObjectID("602f95ffcf6b7508a2abb189"),new ObjectID("60347a59cf6b7522de6e007a"),new ObjectID("603472ffcf6b7522de6d7b31"),new ObjectID("6033c035cf6b755cd33a795e"),new ObjectID("6033b232cf6b755cd339cead"),new ObjectID("602b813acf6b7508a2753e36"),new ObjectID("6033aac6cf6b755cd339619c"),new ObjectID("60339912cf6b755cd337b897"),new ObjectID("60309059cf6b755cd32083ef"),new ObjectID("603388d7cf6b755cd335c0da"),new ObjectID("60338a5ccf6b755cd335d09b"),new ObjectID("602e425fcf6b7508a29ac580"),new ObjectID("6033534ecf6b755cd330beda"),new ObjectID("60332e80cf6b755cd32e82b8"),new ObjectID("602f7b7fcf6b7508a2a92069"),new ObjectID("602f5eb3cf6b7508a2a7298c"),new ObjectID("602b7af8cf6b7508a27468a9"),new ObjectID("602d0c14cf6b7508a28b80ea"),new ObjectID("602d0c60cf6b7508a28b85ef"),new ObjectID("6030e43ccf6b755cd326a9f8"),new ObjectID("6030872dcf6b755cd31fe1a2"),new ObjectID("60309979cf6b755cd3211f0f"),new ObjectID("60309474cf6b755cd320ced3"),new ObjectID("602d00e8cf6b7508a28a7bdc"),new ObjectID("6030a717cf6b755cd3220b46"),new ObjectID("6030ad98cf6b755cd3228d3b"),new ObjectID("60307f82cf6b755cd31f382b"),new ObjectID("6030816ecf6b755cd31f6cf6"),new ObjectID("602fc9f8cf6b7508a2ae0b9d"),new ObjectID("602faf1ccf6b7508a2acd3b0"),new ObjectID("602fad16cf6b7508a2acb9e8"),new ObjectID("602fb3dacf6b7508a2ad0049"),new ObjectID("602f5d7ccf6b7508a2a70cb8"),new ObjectID("602f867dcf6b7508a2a9c88c"),new ObjectID("602b7f94cf6b7508a274f5cf"),new ObjectID("6023d87fcf6b756955bb534c"),new ObjectID("602e1479cf6b7508a297a1ab"),new ObjectID("602f6673cf6b7508a2a7f959"),new ObjectID("602f2b56cf6b7508a2a2f3f0"),new ObjectID("602de495cf6b7508a2918a4f")]}}},*/
                 {
                     "$project":{
@@ -845,7 +848,7 @@ function getCRIFData(filterType = null){
     });
 }
 var finalList = [];
-var logStream = fs.createWriteStream('/home/arunchandrapanday/Customer_Journey.txt', {flags: 'a'});
+var logStream = fs.createWriteStream('/home/arunchandrapanday/Customer_Journey_ME.txt', {flags: 'a'});
 var zero = 0;
 var fivehund = 0
 var fiveTo600 = 0
@@ -951,7 +954,7 @@ try {
                                         prospectsObj["nonAgri_"+entry] = catalogFieldValue;
                                     }else if(catalogKey === "agriSourceIncome"){
                                         prospectsObj["agri_"+entry] = catalogFieldValue;
-                                    }else{
+                                       }else{
                                         prospectsObj[entry] = catalogFieldValue;
                                     }
                                 }
@@ -971,7 +974,7 @@ try {
             if(crifObj !== undefined){
                 crifObj["typeOfObj"] = "b_";
                 crifObj["grpInstalment"] = crif2Obj["grpInstalment"];
-                crifObj["grpFreq"] = crif["grpFreq"];
+                crifObj["grpFreq"] = crif2Obj["grpFreq"];
                 crifObj["indvInstalment"] = crif2Obj["indvInstalment"];
                 crifObj["indvFreq"] = crif2Obj["indvFreq"];
                 crifObj["resInstalment"] = crif2Obj["resInstalment"];
@@ -980,11 +983,11 @@ try {
 
             if(s_crifObj !== undefined){
                 s_crifObj["typeOfObj"] = "s_";
-                crifObj["s_grpInstalment"] = crif2Obj["s_grpInstalment"];
-                crifObj["s_grpFreq"] = crif2Obj["s_grpFreq"];
-                crifObj["s_indvInstalment"] = crif2Obj["s_indvInstalment"];
-                crifObj["s_indvFreq"] = crif2Obj["s_indvFreq"];
-                crifObj["s_resInstalment"] = crif2Obj["s_resInstalment"];
+                s_crifObj["s_grpInstalment"] = s_crif2Obj["s_grpInstalment"];
+                s_crifObj["s_grpFreq"] = s_crif2Obj["s_grpFreq"];
+                s_crifObj["s_indvInstalment"] = s_crif2Obj["s_indvInstalment"];
+                s_crifObj["s_indvFreq"] = s_crif2Obj["s_indvFreq"];
+                s_crifObj["s_resInstalment"] = s_crif2Obj["s_resInstalment"];
                 crifObjArr.push(s_crifObj);
             }
             crifObjArr.forEach(function (crif){
@@ -1043,7 +1046,7 @@ try {
                                 let loanAmount = crif[pre+entry+"LoanAmt"][i];
                                 let acctType = crif[pre+entry+"AcctType"][i].replace( /\s\s+/g, ' ' );
                                 let instalmentList = crif[pre+entry + "Instalment"]
-                                let instalment = instalmentList[i] ? "NA": instalmentList[i]
+                                let instalment = instalmentList && instalmentList[i] ? instalmentList[i]:"NA"
                                 //let currentBalList = crif[pre+entry + "CurrentBal"]
                                 //let currentBal = currentBalList[i] ? 0 : currentBalList[i]
                                 let interestRate = emiEstimationConst.variable[acctType]["IRR"];
@@ -1051,12 +1054,15 @@ try {
                                 if(instalment && instalment !== "" && instalment !== "NA" && instalment !=="0"){
                                     if(entry ==="res"){
                                         let instalmentSplit = instalment.split("/")
-                                        instalment = instalmentSplit(0)
-                                        let freq = instalmentSplit.length === 1 ? "NA" : instalmentSplit(1).toLowerCase()
+                                        instalment = instalmentSplit[0]
+                                        let freq = instalmentSplit.length === 1 ? "NA" : instalmentSplit[1].toLowerCase()
                                         emi = getEMIByfreq(freq,instalment)
                                     }else{
                                         let freqList = crif[pre+entry + "Freq"]
-                                        let freq = freqList(i).toString.toLowerCase()
+                                        if(!freqList){
+                                            console.log(crif)
+                                        }
+                                        let freq = freqList[i].toString().toLowerCase()
                                         emi = getEMIByfreq(freq,instalment)
                                     }
                                 }else{
@@ -1104,6 +1110,7 @@ try {
                     crif[pre+"monthlyActiveLoan"] = monthlyActiveLoan;
 
                     crif[pre+"activeLoanDisburseAmt"] = 0;
+                    crif[pre + "ActiveAccounts"] = 0;
                     item.forEach(function (entry){
                         let disbursedAmtArr = crif[pre+entry+"LoanAmt"];
                         let statusArr = crif[pre+entry+"Status"]
@@ -1112,8 +1119,8 @@ try {
                         //new Code
                         if(currentBalList !== undefined && currentBalList != null ) {
                             for(let i = 0; i < currentBalList.length; i++) {
-                                if (currentBalList[i] <= 100 && currentBalList[i] > 0) {
-                                    crif[pre + "ActiveAccounts"] -= 1;
+                                if (currentBalList[i] >= 100 && statusArr[i].toUpperCase() === "ACTIVE") {
+                                    crif[pre + "ActiveAccounts"] += 1;
                                 }
                             }
                         }
@@ -1194,7 +1201,7 @@ try {
                         });
                         let merchantGeoPoint;
                         if(merchantLat !==0 && merchantLong !==0){
-                            console.log("merchantLat:"+merchantLat+"prospectsObj:"+prospectsObj["_id"])
+                            //console.log("merchantLat:"+merchantLat+"prospectsObj:"+prospectsObj["_id"])
                             merchantGeoPoint = new GeoPoint(merchantLat,merchantLong)
                         }
 
@@ -1214,7 +1221,7 @@ try {
 
 
             console.log(JSON.stringify(Object.assign({},prospectsObj,creditObj,loanObj,crifObj,s_crifObj)))
-            //let xyz = JSON.stringify(Object.assign({},prospectsObj,creditObj,loanObj,crifObj,crif2Obj,s_crifObj,s_crif2Obj));
+            /*let xyz = JSON.stringify(Object.assign({},prospectsObj,creditObj,loanObj,crifObj,crif2Obj,s_crifObj,s_crif2Obj));*/
             /*if (loanObj && loanObj["FinanceId"] && loanObj["FinanceId"] !== "undefined" && Date.parse(loanObj["disbursementDate"]) > 1546300800000 && Date.parse(loanObj["disbursementDate"]) < 1606780800000  ) {
                 console.log(loanObj["FinanceId"]+","+crifObj["CreditScore"]);
                /!* if (crifObj || crifObj["CreditScore"] || crifObj["CreditScore"] == undefined || crifObj["CreditScore"] == null) {
@@ -1238,7 +1245,7 @@ try {
                     gt800++;
                 }*!/
             }*/
-            //logStream.write(xyz+"\n");
+            /*logStream.write(xyz+"\n");*/
 
 
         });
